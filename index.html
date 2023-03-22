@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <title>Aprenda a Reciclar!</title>
+        <meta charset="utf-8">
+        <meta content="width=device-width, initial-scale=1, maximum-scale=1" name="viewport">
+        <link rel="stylesheet" href="style.css">
+        <script type="text/javascript" src="functions.js"></script>
+    </head>
+    <body>
+        <main>
+            <div class="container">
+                <div class="details">
+                    <h1>Pontuação : <span id="score"></span> / 30</h1>
+                    <h1>Pergunta : <span id="number"></span> / 30</h1>
+                </div>
+    
+                <div class="item">
+                    <img id="item-img">
+                </div>
+                <div class="item">
+                    <h1 id="item-name"></h1>
+                </div>
+    
+                <div class="options">
+                    <img src="img/trash/metal.PNG">
+                    <span>
+                        <input type="radio" id="option-one" name="option" class="radio" value="metal" />
+                        <label for="option-one" class="option" id="option-one-label"></label>
+                    </span>
+                    <span>
+                        <input type="radio" id="option-two" name="option" class="radio" value="paper" />
+                        <label for="option-two" class="option" id="option-two-label"></label>
+                    </span>
+                    <img src="img/trash/paper.PNG">
+                    <img src="img/trash/glass.PNG">
+                    <span>
+                        <input type="radio" id="option-three" name="option" class="radio" value="glass" />
+                        <label for="option-three" class="option" id="option-three-label"></label>
+                    </span>
+                    <span>
+                        <input type="radio" id="option-four" name="option" class="radio" value="plastic" />
+                        <label for="option-four" class="option" id="option-four-label"></label>
+                    </span>
+                    <img src="img/trash/plastic.PNG">
+                    <img src="img/trash/organic.PNG">
+                    <span>
+                        <input type="radio" id="option-five" name="option" class="radio" value="organic" />
+                        <label for="option-five" class="option" id="option-five-label"></label>
+                    </span>
+                    <span>
+                        <input type="radio" id="option-six" name="option" class="radio" value="special" />
+                        <label for="option-six" class="option" id="option-six-label"></label>
+                    </span>
+                    <img src="img/trash/special.PNG">
+                </div>
+
+                <div class="next">
+                    <button onclick="nextQuestion()">Próximo</button>
+                </div>
+                <div class="next">
+                    <button onclick="showRanking()">Ranking</button>
+                </div>
+            </div>
+        </main>
+    </body>
+</html>
