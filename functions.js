@@ -286,7 +286,7 @@ function endGame(){
     saveRanking(result);                        //Salvando ranking
     alert("O jogo acabou " + user + ". \nSua pontuação foi de " + score + " pontos!");
     
-    window.location.href = "file:///D:/xampp/htdocs/quiz/index.html";   //Reiniciando jogo
+    window.location.href = "https://pczfelipe.github.io/projeto-sustentabilidade/";   //Reiniciando jogo
 }
 
 //Função responsável por salvar o resultado do jogador no ranking
